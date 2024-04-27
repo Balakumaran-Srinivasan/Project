@@ -1,6 +1,23 @@
-.page-container
-{   
-    margin: auto;
-    width: 50vw;
-    height: 100vh;
-}
+
+@media only screen and (min-width: 576px) {
+    .page-container
+    {   
+        margin: auto;
+        width: 50vw;
+        height: 100%;
+    }
+  }
+  @media only screen and (max-width: 576px) {
+     footer{
+        width: 100%; 
+     }
+      
+     .reels-container
+     {
+        width: 100%;
+        height: 100%;
+     }
+     .reels-header{
+        width: 100vw;
+     }
+  }

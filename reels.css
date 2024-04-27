@@ -48,12 +48,9 @@ main{
     top:0;
     width: inherit;
    height: inherit;
-background-color: pink;
+   background-color:pink;
 }
-.reels-video    
-{
-    position: relative; 
-}
+ 
 .heart-icon{
     position: absolute;
      left: auto;
@@ -68,7 +65,7 @@ background-color: pink;
     flex-wrap: wrap;
     position: absolute;
     top: 80vh;
-     line-height: 2rem;
+    
   }
   .follower-name, .music-description  {
     font-weight: bold ;
@@ -83,8 +80,7 @@ nav  {
     display: flex;
     justify-content: space-around;
     font-size: 2rem;
-    margin-left: -20px;
-    margin-right: -10px;
+    width: inherit;
 }
 .round-icon{
     border: 3px solid black;

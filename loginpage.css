@@ -46,10 +46,12 @@
     color: #0000ff;
     font-weight: bolder;
  }
- footer{
+ .section02{
     text-align: center;
     background-color: aliceblue;
-    padding: 50px;
+    display: inline-block;
+    width: 400px;
+    padding: 10px;
  }
  .meta-logo {
 
