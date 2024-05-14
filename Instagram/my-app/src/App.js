@@ -1,10 +1,17 @@
  import './App.css';
-import Header from './Component/Header';
+import Footer from './Component/Footer';
+import Search from './Component/Search';
+// import Header from './Component/Header';
+// import Profile from './Component/Profile';
+// import HomePage from './Component/HomePage';
 
 function App() {
   return (
     <div className="App">
-        <Header/>
+       {/* <HomePage/> */}
+        <Search/> 
+        
+       <Footer/>
     </div>
   );
 }
