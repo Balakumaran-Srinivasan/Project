@@ -1,17 +1,18 @@
-header
+.search-header
 {
-    display: block;
+    display: flex;
     background-color: lightgray;
     font-size: 1.5rem;
     text-align: left;
     border-radius: 10px;    
 }
 input{
-    border: none;
+    border:none ;
+    border-radius: 10px;
     background-color: lightgray;
    
 }
-section{
+.search-section{
     display: grid;
     height: 85vh;
     grid-template-columns: repeat(3,auto);

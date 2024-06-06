@@ -1,11 +1,13 @@
 import React from 'react'
 import './profile.css'
 import './media-queries.css'
+import Footer from './Footer'
 
 function ProfileHeader()
 {
     return(
-        <header className="m-2">
+        <header>
+        <div className="m-2 profile-header">
         <div className="title-icon">
             <div><i className="fa-solid fa-lock mt-1" style={{fontSize:"2rem"}}></i></div>
             <h1 className="ms-2">bk.srinivasan</h1>
@@ -19,6 +21,7 @@ function ProfileHeader()
         <div className="header-icon" style={{fontSize:"2rem"}}>
             <div><i className="fa-regular fa-square-plus "></i></div>
             <div><i className="fa fa-bars "></i></div>
+        </div>
         </div>
     </header>
     )
@@ -34,7 +37,7 @@ function ProfileMain()
 }
 function Section01(){
     return(
-        <section className="mx-2">
+        <section>
         <div className="profile-header">
             <div className="profile-image">
                 <div className="round-icon">
@@ -82,14 +85,15 @@ function Section02()
             <div className="post-grid"></div>
             <div className="post-grid"></div>
         </div>
-    </section>
-    )
+        </section>
+     )
 }
 export default function Profile() {
   return (
     <>
      <ProfileHeader/>
      <ProfileMain/>
+     <Footer/>
      </>
   )
 }

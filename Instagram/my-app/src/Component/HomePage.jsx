@@ -1,5 +1,7 @@
 import React from 'react'
 import './styles.css';
+import Header from './Header';
+import Footer from './Footer';
 function HomepageMain()
 {
     return(
@@ -29,6 +31,10 @@ function HomepageMain()
 }
 export default function HomePage() {
   return (
-     <HomepageMain/>
+    <>
+      <Header/>
+      <HomepageMain/>
+      <Footer/>
+    </>
   )
 }

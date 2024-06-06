@@ -1,17 +1,14 @@
  import './App.css';
-import Footer from './Component/Footer';
-import Search from './Component/Search';
-// import Header from './Component/Header';
-// import Profile from './Component/Profile';
-// import HomePage from './Component/HomePage';
-
+import Reels from './Component/Reels';
+ import Search from './Component/Search';
+//  import Profile from './Component/Profile';
+//  import HomePage from './Component/HomePage';
 function App() {
   return (
     <div className="App">
        {/* <HomePage/> */}
         <Search/> 
-        
-       <Footer/>
+         {/* <Profile/> */}
     </div>
   );
 }

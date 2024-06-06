@@ -1,19 +1,8 @@
 import React from 'react'
-import './styles.css';
-import './media-queries.css'
-import './search.css'
-import Footer from './Footer';
-import Reels from './Reels';
-function SearchHeader()
-{
-    return(
-      <>
-    <header> 
-    <div className='search-header m-2'>
-    <i className="fa fa-magnifying-glass ms-1"></i> 
-   <input className="ms-1" type="search" placeholder="Search" size="20"/>
-   </div>
-    </header>
+
+export default function Reels() {
+  return (
+    <> 
     <main>
     <section className='search-section'>
         <div className=" reels reels-box-1"></div>
@@ -27,16 +16,6 @@ function SearchHeader()
         <div className=" reels reels-box-9"></div>
     </section>
 </main>
-</>
-)
-}
-
-export default function Search() {
-  return (
-    <>
-    <SearchHeader/>
-     <Footer/>
     </>
-
   )
 }

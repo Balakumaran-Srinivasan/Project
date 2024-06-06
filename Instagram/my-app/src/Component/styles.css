@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-header{
+.homepage-header{
     display: flex;
     justify-content: space-between;
  }
@@ -38,6 +38,7 @@ button{
     font-size: 2rem;
     column-gap: 20px;
 }
+ 
 .story{
     display: flex;
     justify-content: space-between;
@@ -49,7 +50,7 @@ button{
     margin-bottom: auto;
 }
 .story-inner-circle{
-    border: 40px solid white;
+    border: 30px solid white;
     border-radius: 50%;
 }
 nav  {

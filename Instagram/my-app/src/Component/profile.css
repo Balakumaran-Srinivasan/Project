@@ -4,14 +4,14 @@
     box-sizing: border-box;
     line-height: 1%;
 }
-header{
+.profile-header{
     display: flex;
     justify-content: space-between;
- }
+  }
 .title-icon{
     display:inline-flex;
 }
-.btn
+.profile-header-btn
 {     
     background-color: white;
     border: none;
@@ -34,8 +34,9 @@ header{
 }
 .header-icon
 {
+    margin-top: 10px;
     display:inline-flex;
-    column-gap: 20px;
+    column-gap: 10px;
  }
 .bar-icon
 {
@@ -78,10 +79,8 @@ header{
    
 }
 .profile_btn
-{
-    border: none;
-    padding: 10px 20px;
-    font-size: 1rem;
+{     
+      font-size: 1rem;
 }
 /* .profile-post-section
 { 

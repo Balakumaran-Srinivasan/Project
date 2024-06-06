@@ -2,7 +2,8 @@ import React from 'react';
 import './styles.css';
 export default function Header() {
   return (
-    <header className="mx-2">
+    <header >
+        <div className="mx-2 homepage-header">
         <div className="title-icon">
             <h1>Instagram</h1>
             <button>
@@ -15,6 +16,7 @@ export default function Header() {
         <div className="header-icon">
             <div><i className="fa-regular fa-heart"></i></div>
             <div className="me-2"><i className="fa-brands fa-facebook-messenger" style={{color: "grey"}}></i></div>
+        </div>
         </div>
         </header>
   )
