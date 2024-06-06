@@ -1,0 +1,60 @@
+.loginpage-body{
+     
+   text-align: center;
+}
+.login-header{
+    display: inline-block;
+   line-height: 5rem;
+}
+
+.facebook-login
+{  
+   display:inline-block;
+   background-color: #0000ff;
+   color: white;
+    border-radius: 20px;
+   padding: 20px;
+   line-height: 1rem;
+}
+.logo{
+   margin-right: 10px;
+}
+
+.login-input{
+   width:300px;
+   padding: 10px;
+    margin-top: 10px;
+}
+.forget-password{
+   color: #0000ff;
+   position: relative;
+   left: 90px;
+   margin: 20px;
+}
+.login-btn{
+   display:inline-block;
+   background-color: #0000ff;
+   color: white;
+   padding: 10px 100px;
+   border-radius: 20px;
+   margin-bottom: 30px;
+}
+.signup
+{
+   color: #0000ff;
+   font-weight: bolder;
+}
+.Loginpage-footer{
+   text-align: center;
+   background-color: aliceblue;
+   padding: 10px;
+}
+.meta-logo {
+
+   font-size: 24px;
+   background: -webkit-linear-gradient(rgb(188, 12, 241), rgb(212, 4, 4));
+   background-clip: text;
+   -webkit-text-fill-color: transparent;
+ }
+ 
+ 
