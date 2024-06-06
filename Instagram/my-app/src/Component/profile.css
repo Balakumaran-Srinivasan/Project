@@ -2,7 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    line-height: 1%;
+}
+.profile-lineheight
+{   
+    line-height: 1px;
 }
 .profile-header{
     display: flex;
@@ -58,7 +61,7 @@
 {   
     display: flex;
     width: 100%;
-  }
+   }
 .profile-image
 {
     display: flex   ;
@@ -113,7 +116,7 @@
 }
 nav  {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     font-size: 2rem;
     margin-left: -20px;
     margin-right: -10px;
@@ -127,7 +130,7 @@ nav  {
     border: 20px solid white;
     border-radius: 50%;
 }
-footer{
+.footer{
     position: fixed;
     width: inherit;
     background-color: #ffff;

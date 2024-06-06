@@ -55,7 +55,7 @@ button{
 }
 nav  {
     display:flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     font-size: 2rem;
 }
 .round-icon{
@@ -67,7 +67,7 @@ nav  {
     border: 20px solid white;
     border-radius: 50%;
 }
-footer{
+.footer{
     position: fixed;
     width: inherit;
     overflow: hidden;

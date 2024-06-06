@@ -7,7 +7,7 @@ function ProfileHeader()
 {
     return(
         <header>
-        <div className="m-2 profile-header">
+        <div className="m-2 profile-header profile-lineheight">
         <div className="title-icon">
             <div><i className="fa-solid fa-lock mt-1" style={{fontSize:"2rem"}}></i></div>
             <h1 className="ms-2">bk.srinivasan</h1>
@@ -68,7 +68,7 @@ function Section02()
     return(
         <section>
         {/* <!-- bio data section --> */}
-        <div className="bio-data-section mx-2">
+        <div className="bio-data-section profile-lineheight mx-2">
             <h6>Balakumaran</h6>
             <p>Farmer/MERN Stack Developer</p>
             <div className="profile_section-btn">

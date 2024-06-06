@@ -3,7 +3,7 @@ import './styles.css'
 import './media-queries.css';
 export default function Footer() {
   return (
-    <footer>
+    <footer className='footer'>
         <nav>
             <div><i className="fa-solid fa-house"></i></div>
             <div> <i className="fa-solid fa-magnifying-glass"></i></div>
